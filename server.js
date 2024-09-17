@@ -46,6 +46,7 @@ app.get('/watch', (request,response) => {
     })
 
     //res.json(movie)
+})
 
 app.get('/ytub' , (request,response) => {
     const ID = request.query.v
@@ -58,7 +59,6 @@ app.get('/ytub' , (request,response) => {
 })
 
 
-})
 
 app.get('/om', (req, res) => {
     res.render("om.njk", {
