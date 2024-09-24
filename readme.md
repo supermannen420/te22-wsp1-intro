@@ -71,4 +71,11 @@ app.get('/om', (req, res) => {
 för att den ska visas
 ---------
 ---------
-##
+## route
+
+
+vi gjorde index js där vi la in alla app getå ändrade rill route så att vi städade upp vår server js.
+
+de gör så att allt skit som bara tar plats ligger i en anna fill.
+
+sen gjorde vi en seach funktion där man kan söka efter saker och hitta igenom el lista av saker som man kan söka på och den kollar om de är något man kan söka på.
