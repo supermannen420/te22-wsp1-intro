@@ -1,0 +1,23 @@
+{% extends "layout.njk" %}
+{% block content %}
+
+<main class = "container">
+    <h1>{{title}}</h1>
+
+    <form action="/calc/add" method="get">
+      
+
+            <input type="number" name="num1">
+            <input type="number" name="num2">
+            <select name="method">
+                <option value="add">Addition</option>
+                <option value="mul">Multiplikation</option>
+            </select>
+            <button type="submit">räkna</button>   
+       
+       
+    </form>
+</main>
+
+
+{% endblock %}
